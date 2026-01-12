@@ -1,0 +1,54 @@
+.custom-navbar {
+    background-color: #f5f1ea; /* soft beige */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 14px 0;
+}
+
+/* Brand */
+.navbar-brand {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.brand-main {
+    color: #6c1c1c; /* rich accent */
+}
+
+.brand-sub {
+    color: #334155;
+    margin-left: 4px;
+}
+
+/* Nav links */
+.nav-pill {
+    color: #334155 !important;
+    font-weight: 500;
+    padding: 8px 18px !important;
+    border-radius: 999px;
+    transition: all 0.3s ease;
+}
+
+.nav-pill:hover,
+.nav-pill:focus {
+    background-color: #e8e2d8;
+    color: #020617 !important;
+}
+
+.nav-pill.active {
+    background-color: #e0d9cc;
+    color: #020617 !important;
+}
+
+/* CTA Button */
+.nav-cta {
+    background-color: #6c1c1c;
+    color: #ffffff !important;
+    padding: 9px 22px !important;
+    border-radius: 999px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.nav-cta:hover {
+    background-color: #531313;
+}

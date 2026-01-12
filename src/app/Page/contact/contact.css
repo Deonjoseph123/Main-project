@@ -1,0 +1,111 @@
+.contact-page {
+  padding: 80px 0;
+
+  background-image:
+    linear-gradient(
+      rgba(254, 226, 226, 0.85),
+      rgba(127, 29, 29, 0.85)
+    ),
+    url("https://images.unsplash.com/photo-1521791136064-7986c2920216");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ================= TITLE ================= */
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #7f1d1d;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: linear-gradient(90deg, #dc2626, #f87171);
+  display: block;
+  margin: 12px auto 0;
+  border-radius: 5px;
+}
+
+/* ================= CARD ================= */
+
+.contact-card {
+  border: none;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 20px 50px rgba(185, 28, 28, 0.25);
+}
+
+/* ================= FORM ================= */
+
+.form-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #7f1d1d;
+}
+
+.form-control {
+  border-radius: 12px;
+  border: 1px solid #fca5a5;
+  padding: 14px 16px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.form-control::placeholder {
+  color: #9ca3af;
+}
+
+.form-control:focus {
+  border-color: #dc2626;
+  box-shadow: 0 0 0 4px rgba(220, 38, 38, 0.2);
+}
+
+/* ================= BUTTON ================= */
+
+.btn-primary {
+  background: linear-gradient(135deg, #dc2626, #7f1d1d);
+  border: none;
+  border-radius: 14px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #ef4444, #991b1b);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(220, 38, 38, 0.45);
+}
+
+/* ================= MAP ================= */
+
+.contact-card iframe {
+  margin-top: 30px;
+  border-radius: 16px;
+  box-shadow: 0 15px 30px rgba(185, 28, 28, 0.35);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 28px;
+  }
+
+  .contact-page {
+    padding: 50px 20px;
+  }
+
+  .contact-card {
+    border-radius: 16px;
+  }
+}
